@@ -1,0 +1,5 @@
+  public static final int SUCCESS = 0; 
+  public static final int EXCEPTION = 1; 
+  public static final int BILLING_EXCEPTION = 2; 
+  public static final int UNAUTHORIZED = 3; 
+  public static final int NULL = 4; 
