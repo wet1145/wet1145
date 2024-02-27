@@ -1,0 +1,4 @@
+  public boolean isConfirmed() { 
+        /**@todo:Implement this com.sun.content.server.service.security.User method*/ 
+        throw new java.lang.UnsupportedOperationException("Method isConfirmed() not yet implemented."); 
+    } 
