@@ -1,0 +1,12 @@
+ IApiContext apiContext = (IApiContext) session.getAttribute("API_CONTEXT"); 
+ 
+  // Get a reference to a Content Service 
+  IContentService cs = ApiServiceFactory.getContentService(apiContext); 
+ 
+  // Attempt to purchase a content item as part of a campaign 
+  cs.purchaseContent(contentId, campaignId, true); 
+ 
+  // Commit the Transaction 
+  ApiUtil.commitTransaction(); 
+} 
+catch (MDSException e) 
