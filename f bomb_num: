@@ -1,0 +1,11 @@
+            elif event.type == KEYDOWN:
+                if event.key == K_SPACE:
+                    if bomb_num:
+                        bomb_num -= 1
+                        bomb_sound.play()
+                        for each in enemies:
+                            if each.rect.bottom > 0:
+                                each.active = False
+            elif event.type == SUPPLY_TIME:
+                supply_sound.play()
+                if random.choice([True, False]):
