@@ -1,0 +1,5 @@
+        setUndecorated(true);
+        setTitle("JStarCraft");
+        setIconImage(ResourceManager.loadImage("title.png"));
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(800, 600);
