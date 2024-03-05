@@ -1,0 +1,4 @@
+        BufferStrategy strategy = getBufferStrategy();
+        long startTime = System.currentTimeMillis();
+        long currTime = startTime;
+        while (isRunning) {
