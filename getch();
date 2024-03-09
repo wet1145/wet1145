@@ -1,0 +1,6 @@
+						puts("|   Your Debit money is $100,Thank you!   |");
+						puts("|        Press any key to return...       |");
+						puts("===========================================");
+						getch();
+						break;
+					case '3':
