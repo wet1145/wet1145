@@ -1,0 +1,4 @@
+{int sw,leap,i,j,k,wd,day;
+ int year;/*年*/
+ char title[]="SUN MON TUE WED THU FRI SAT";
+clrscr();
