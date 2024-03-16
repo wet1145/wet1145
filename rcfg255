@@ -1,0 +1,4 @@
+        tree(branchLen - random.uniform(12, 16), t)  # 随机决定减小长度
+        t.right(ang)
+        t.up()
+        t.backward(branchLen)
