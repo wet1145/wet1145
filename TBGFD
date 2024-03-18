@@ -1,0 +1,4 @@
+                    new FileReader("/IdeaProjects/client2/src/test/java/com/client2/cnblogtest/teststream.txt"));
+            while (fileReader.read() != -1){
+            }
+            fileReader.close();
